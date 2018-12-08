@@ -1,0 +1,25 @@
+{
+  "name": "tutorial-sqlite3",
+  "version": "1.0.0",
+  "description": "Tutorial for SQLite 3.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helinjiang/tutorial-sqlite3.git"
+  },
+  "keywords": [
+    "SQLite"
+  ],
+  "author": "helinjiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/helinjiang/tutorial-sqlite3/issues"
+  },
+  "homepage": "https://github.com/helinjiang/tutorial-sqlite3#readme",
+  "dependencies": {
+    "sqlite3": "^4.0.4"
+  }
+}
