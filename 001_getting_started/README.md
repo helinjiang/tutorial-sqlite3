@@ -31,14 +31,22 @@ node index
 
 ## 2. 生成数据库文件
 
-在官方示例基础上，输出一个数据库文件 `db.sqlite3`。相关差别请查看文档说明 https://github.com/mapbox/node-sqlite3/wiki/API#new-sqlite3databasefilename-mode-callback 。
+在官方示例基础上，将输出数据库文件，相关差别请查看文档说明 https://github.com/mapbox/node-sqlite3/wiki/API#new-sqlite3databasefilename-mode-callback 。
 
-使用 SQLite 的可视化工具加载之后，可以看到里面的内容和结构。
+在本目录中执行以下命令
+
+```shell
+node save_by_file
+```
+
+将输出同样的结果，且产生一个数据库文件 `db.sqlite3`。
+
+使用 SQLite 的可视化工具加载 `db.sqlite3` 数据库文件之后，可以非常清晰的看到里面的内容和结构。
 
 > 下图是使用 [navicat-for-sqlite](http://www.navicat.com.cn/products/navicat-for-sqlite) 的截图。
 
 ![](./static/p1.jpg)
 
-如果允许 SQL 语句，则也可以看到结果
+如果运行 SQL 查询语句，则也可以看到结果
 
 ![](./static/p2.jpg)
