@@ -5,7 +5,7 @@
 
 ## 工具
 
-可视化工具推荐
+可视化工具推荐:
 
 - [navicat-for-sqlite](http://www.navicat.com.cn/products/navicat-for-sqlite)
 - https://blog.csdn.net/qq_31073871/article/details/79799603
